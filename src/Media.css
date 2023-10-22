@@ -1,0 +1,881 @@
+
+
+/*-------------------MEDIA QUERRY ---------------------------
+
+---------------------------------------------------*/
+
+@media (max-width: 767px) and (min-width:300px) {
+
+
+    /*---------HOME PAGE---------*/
+
+    
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .head {
+        background: none;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        height: 8vh;
+        width: 12vw;
+    }
+
+
+    .linktag {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(207, 190, 190);
+        text-align: center;
+    }
+
+
+    .linktag2 {
+        display: none;
+
+    }
+
+
+    .navbar {
+        background: none;
+    }
+
+    /*------------------THE SERIN--------------------------*/
+    .head {
+        width: 100%;
+        height: 15vh;
+    }
+
+    .The {
+        rotate: 270deg;
+        font-size: 2em;
+        position: absolute;
+        left: 1.5em;
+        top: 5vh;
+    }
+
+    .Siren {
+        font-size: 3em;
+        position: absolute;
+        left: 2em;
+        top: -2vh;
+
+    }
+
+    .hamburgerbtn {
+        display: block;
+        margin-top: 4vh;
+        margin-right: 4vh;
+        width: 35px;
+        height: 35px;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 60%;
+        border: none;
+        background-color: white;
+    }
+
+    ul {
+        display: none;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .MAIN-IMAGE {
+        flex-direction: column;
+        gap: 4vh;
+        height: 125vh;
+    }
+
+    .aghori-img img {
+        height: 48vh;
+        width: 99%;
+    }
+
+    .top-img {
+        height: 70vh;
+        width: 100%;
+    }
+
+    .top-img img {
+        height: 32vh;
+        width: 99%;
+    }
+
+    /*------------the latest---------------*/
+    .LatestDiv {
+        flex-direction: column;
+        justify-content: start;
+        height: 200vh;
+        width: 100%;
+    }
+
+    .latestimage {
+        width: 98%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 3px rgb(5, 73, 73);
+    }
+
+    .Latest-txt-head {
+        font-size: 28px;
+    }
+
+    .Latest-txt {
+        font-size: 14px;
+        width: 98%;
+    }
+
+    .HomeLatest {
+        text-align: center;
+    }
+
+    /*------LATEST ARTICLE SECTION----------------*/
+
+    .Article-head {
+        font-size: 2.5rem;
+    }
+
+    .ArticleContainer {
+        height: 415vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondcolum {
+        height: 260vh;
+        width: 100%;
+    }
+
+    .Article {
+        height: 30vh;
+        width: 98%;
+    }
+
+    .Articleimages {
+        height: 29.6vh;
+        width: 49vw;
+    }
+
+    .Articletext {
+        font-size: 13px;
+        width: 40vw;
+        height: 29vh;
+    }
+
+    .largeimg {
+        height: 45vh;
+        width: 99%;
+    }
+
+    /*-----------advertisment coulmn-----------------*/
+
+    .thirdcolumn {
+        height: 240vh;
+        width: 100%;
+    }
+
+    .Advertisement {
+        display: none;
+    }
+
+    /*----------------TOP POST------------------------
+    ============================================*/
+
+    .Toppost {
+        height: 155vh;
+        width: 100%;
+    }
+
+    .toparticle {
+        width: 97%;
+        height: 28vh;
+    }
+
+    .TopArticleimg {
+        height: 27.5vh;
+        width: 50vw;
+    }
+
+    .textt {
+        width: 24vw;
+    }
+
+
+    /*-------------------latest stories---------------*/
+
+
+    .Storiehead {
+        font-size: 40px;
+    }
+
+    .StoriesDiv {
+        flex-direction: column;
+        justify-content: start;
+        height: 165vh;
+        width: 100%;
+    }
+
+    .last {
+        font-size: 17px;
+        color: gray;
+    }
+
+    .last p {
+        width: 95%;
+    }
+
+    /*---------------------FOOTER DESIGN--------------------*/
+
+    .footerContainer {
+        height: 150px;
+        margin-top: 6em;
+        padding: 25px 0 25px;
+        border-top-left-radius: 80px;
+        font-size: 10px;
+        justify-content: space-evenly;
+    }
+
+
+
+
+    footer {
+        /* padding: 20px 0px; */
+        width: 100%;
+        height: 35vh;
+    }
+
+    .NavIcons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .NavIcons h2 {
+        font-size: 22px;
+        margin: 0px 3px;
+    }
+
+    .leftNav {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        height: 24vh;
+    }
+
+
+    .icons h2 {
+        font-size: 28px;
+    }
+
+    .footer-content {
+        font-size: 18px;
+    }
+
+
+
+
+    /*------------BOLLYWOOD ----------------------===============
+    ===============================================================
+    =========================================*/
+
+
+    .headingcompo {
+        top: 35vh;
+        font-size: 40px;
+        margin-bottom: 1.5em;
+    }
+
+    .maindiv {
+        display: flex;
+        flex-direction: column;
+        top: 26vh;
+        height: 603vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .Imagemain {
+        height: 390vh;
+        width: 100%;
+
+    }
+
+    .Container1 {
+        flex-direction: column;
+        height: 23vh;
+        width: 99.5%;
+    }
+
+    .AllImages {
+        height: 22.5vh;
+        width: 45vw;
+    }
+
+    .AllText {
+        width: 44vw;
+        height: 100%;
+        font-size: 12px;
+
+    }
+
+    /*--------------------Top main2 RIGHT---------------*/
+
+    .TopMain2 {
+        width: 99.5%;
+        height: 240vh;
+    }
+
+    .Top {
+        font-size: 42px;
+    }
+
+    .ArticleAllOne {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        gap: 3vh;
+    }
+
+    .singleImageForAll {
+        height: 50vh;
+        width: 98%;
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+
+    /* .Top2Text {
+      width: 60vw;
+      height: 20vh;
+    } */
+
+    .ArticletextAllone1 {
+        height: 13vh;
+        width: 98%;
+        font-size: 12px;
+        gap: 8vw;
+    }
+
+    .bigno {
+        font-size: 39px;
+    }
+
+    /*-----TOP2 KI SERIES-------------*/
+
+    .toppostdiv {
+        box-shadow: 4px 4px 4px 4px orchid;
+        gap: 5vh;
+        height: 20vh;
+        width: 98%;
+    }
+
+    .Top2series {
+        display: flex;
+        flex-direction: row;
+        height: 21vh;
+        width: 99.5%;
+        gap: 3.5vw;
+    }
+
+    .topsmallimg {
+        height: 19vh;
+        width: 50vw;
+        box-shadow: 2px 2px 2px 2px gray;
+    }
+
+
+    .Top2Text {
+        width: 33vw;
+        font-size: 11px;
+    }
+
+    .number {
+        font-size: 14px;
+    }
+
+    .Advertise {
+        display: none;
+    }
+
+    /*===========================NAVIGATE PAGE DESIGNE==============
+  ==================================================*/
+
+    .detail {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .socialProfile {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .Profile {
+        display: flex;
+        width: 42vw;
+        height: 15vh;
+        align-items: baseline;
+    }
+
+    .pic {
+        height: 10vh;
+        width: 8vw;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    /*-------social icon-------*/
+    .Socialmedia {
+        display: flex;
+    }
+
+    .sicon {
+        height: 8vh;
+        width: 12vw;
+    }
+
+    .NavigateImg {
+        height: 54vh;
+        width: 98%;
+    }
+
+    .navtext {
+        font-size: 18px;
+    }
+
+    /*-----lateset text--------*/
+    .text {
+        height: 20vh;
+        width: 99%;
+
+    }
+}
+
+
+/*-------------------MEDIA Tab QUERRY ---------------------------
+ 
+  ========================================================*/
+
+@media (max-width: 990px) and (min-width:760px) {
+    /*---------HOME PAGE---------*/
+
+    /*-------Three images-----------*/
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+
+    /*------------------THE SERIN--------------------------*/
+    .head {
+        width: 100%;
+        height: 15vh;
+    }
+
+    .The {
+        font-size: 44px;
+        left: 1.5em;
+        top: 5vh;
+    }
+
+    .Siren {
+        font-size: 60px;
+        left: 2.5em;
+        top: -0vh;
+    }
+
+    .hamburgerbtn {
+        display: block;
+        margin-top: 5vh;
+        margin-right: 4vh;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 60%;
+        border: none;
+        background-color: white;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .MAIN-IMAGE {
+        flex-direction: column;
+        gap: 4vh;
+        height: 120vh;
+    }
+
+    .aghori-img img {
+        height: 48vh;
+        width: 98%;
+    }
+
+    .top-img {
+        height: 70vh;
+        width: 100%;
+    }
+
+    .top-img img {
+        height: 32vh;
+        width: 98%;
+    }
+
+    /*------------the latest---------------========
+    =================================*/
+    .LatestDiv {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 180vh;
+        width: 100%;
+    }
+
+    .latestimage {
+        width: 98%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 3px rgb(5, 73, 73);
+    }
+
+    .Latest-txt-head {
+        font-size: 34px;
+    }
+
+    .Latest-head {
+        margin-bottom: 1.5em;
+    }
+
+    .Latest-txt {
+        color: grey;
+        font-size: 22px;
+        width: 96%;
+    }
+
+    .HomeLatest {
+        text-align: center;
+    }
+
+    /*------LATEST ARTICLE SECTION----------------*/
+
+    .Article-head {
+        font-size: 3rem;
+    }
+
+    .ArticleContainer {
+        height: 410vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondcolum {
+        height: 260vh;
+        width: 100%;
+    }
+
+    .Article {
+        height: 30vh;
+        width: 98%;
+    }
+
+    .Articleimages {
+        height: 29.6vh;
+        width: 49vw;
+    }
+
+    .Articletext {
+        font-size: 22px;
+        width: 40vw;
+        height: 29vh;
+    }
+
+    .largeimg {
+        height: 45vh;
+        width: 98%;
+    }
+
+    /*-----------advertisment coulmn-----------------*/
+
+    .thirdcolumn {
+        height: 210vh;
+        width: 100%;
+    }
+
+    .Advertisement {
+        display: none;
+    }
+
+    /*----------------TOP POST------------------------
+    ============================================*/
+
+    .Toppost {
+        height: 148vh;
+        width: 100%;
+    }
+
+    .toparticle {
+        width: 98%;
+        height: 28vh;
+    }
+
+    .TopArticleimg {
+        height: 27.5vh;
+        width: 50vw;
+    }
+
+    .textt {
+        width: 24vw;
+        font-size: 22px;
+    }
+
+
+    /*-------------------latest stories---------------*/
+
+
+    .Storiehead {
+        font-size: 48px;
+    }
+
+    .StoriesDiv {
+        flex-direction: column;
+        justify-content: start;
+        height: 170vh;
+        width: 100%;
+    }
+
+    .last {
+        font-size: 30px;
+        color: gray;
+    }
+
+    .last p {
+        width: 95%;
+        font-size: 22px;
+    }
+
+    /*---------------------FOOTER DESIGN--------------------*/
+    footer {
+        background-color: #4db4bb;
+        padding: 20px 0px;
+        width: 100%;
+    }
+
+    .NavIcons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+
+    .NavIcons h2 {
+        font-size: 32px;
+        margin: 0px 5px;
+    }
+
+    .leftNav {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .icons h2 {
+        font-size: 35px;
+    }
+
+    .footer-content {
+        font-size: 17px;
+    }
+
+
+    /*------------BOLLYWOOD ----------------------===============
+    ===============================================================
+    =========================================*/
+
+
+    .headingcompo {
+        top: 35vh;
+        font-size: 45px;
+    }
+
+    .maindiv {
+        display: flex;
+        flex-direction: column;
+        top: 26vh;
+        height: 598vh;
+        width: 100%;
+    }
+
+    .Imagemain {
+        height: 390vh;
+        width: 100%;
+
+    }
+
+    .Container1 {
+        flex-direction: column;
+        height: 23vh;
+        width: 99%;
+    }
+
+    .AllImages {
+        height: 22.5vh;
+        width: 45vw;
+    }
+
+    .AllText {
+        width: 44vw;
+        height: 100%;
+        font-size: 22px;
+
+    }
+
+    /*--------------------Top main2 RIGHT---------------*/
+
+    .TopMain2 {
+        width: 100%;
+        height: 210vh;
+
+    }
+
+    .Top {
+        font-size: 48px;
+    }
+
+    .ArticleAllOne {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        gap: 3vh;
+    }
+
+    .singleImageForAll {
+        height: 50vh;
+        width: 99%;
+        box-shadow: 3px 3px 3px 3px gray;
+    }
+
+    /* .Top2Text {
+      width: 60vw;
+      height: 20vh;
+    } */
+
+    .ArticletextAllone1 {
+        height: 13vh;
+        width: 99%;
+        font-size: 20px;
+        gap: 8vw;
+    }
+
+    .bigno {
+        font-size: 40px;
+    }
+
+    /*-----TOP2 KI SERIES-------------*/
+
+    .toppostdiv {
+        gap: 5vh;
+        height: 20vh;
+        width: 98%;
+    }
+
+    .Top2series {
+        height: 21vh;
+        width: 100%;
+        gap: 3.5vw;
+    }
+
+    .topsmallimg {
+        height: 19vh;
+        width: 45vw;
+        box-shadow: 2px 2px 2px 2px gray;
+    }
+
+
+    .Top2Text {
+        width: 33vw;
+        font-size: 20px;
+    }
+
+    .number {
+        font-size: 20px;
+    }
+
+    .Advertise {
+        display: none;
+    }
+
+    /*===========================NAVIGATE PAGE DESIGNE==============
+  ==================================================*/
+
+    .detail {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .socialProfile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .Profile {
+        display: flex;
+        width: 30vw;
+        height: 15vh;
+        align-items: baseline;
+
+    }
+
+    .pic {
+        height: 10vh;
+        width: 10vw;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+
+    /*-------social icon-------*/
+    .Socialmedia {
+        display: flex;
+    }
+
+    .sicon {
+        height: 6vh;
+        width: 12vw;
+    }
+
+
+    .NavigateImg {
+        height: 54vh;
+        width: 99%;
+    }
+
+    .navtext {
+        font-size: 18px;
+    }
+
+    /*-----lateset text--------*/
+    .text {
+        height: 20vh;
+        width: 99%;
+
+    }
+
+    .backbutton {
+        height: 5vh;
+        width: 20vw;
+    }
+}
