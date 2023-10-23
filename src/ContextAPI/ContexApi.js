@@ -128,7 +128,7 @@ const ConntextStore = (props) => {
             name: "Gabbar",
             category: "Bollywood",
             image: "https://cdn.wallpapersafari.com/5/15/jQpFEH.jpg",
-            text: "3 Idiots is a 2009 Indian comedy-drama film directed by Rajkumar Hirani. It stars Aamir Khan, R. Madhavan, and Sharman Joshi in lead roles and emphasizes the importance of education."
+            text: "Gabbar Singh Rajput (Akshay Kumar) creates his own vigilante military network called the Anti-Corruption Force (ACF) that eliminates the most corrupt individuals, from all walks of life, in a systematic manner."
         },
         {
             id: 19,
@@ -598,9 +598,6 @@ const ConntextStore = (props) => {
             image: "https://www.hhhealth.com/wp-content/uploads/2022/07/AdobeStock_295859885-1024x480.jpeg",
             content: "Understand the mind-body connection in fitness and how mental well-being influences physical performance. Learn techniques for enhancing focus and motivation during workouts.Flexibility workouts, such as stretching, don’t directly contribute to heart health. What they do is benefit musculoskeletal health, which enables you to stay flexible and free from joint pain, cramping and other muscular issues. That flexibility is a critical part of being able to maintain aerobic exercise and resistance training, says Stewart."
         },
-
-
-
 
     ]);
     return (
