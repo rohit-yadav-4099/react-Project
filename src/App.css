@@ -314,16 +314,30 @@ hr{
   position: absolute;
   padding: 50px 0 30px;
   border-top-left-radius: 125px;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 20px;
   display: flex;
   justify-content: space-around;
 }
 
+.footer2ndDiv{
+  display: flex;
+  gap: 8em;
+}
 .navcontact{
   margin-top: 40px;
 }
 
+.search{
+ display: flex;
+ flex-direction: column;
+}
+
+.a{
+  color: white;
+  font-size: 15px;
+  line-height: 1%;
+}
 .navSocialmedia {
   display: flex;
   gap: 5px;
@@ -569,5 +583,3 @@ hr{
   font-size: 20px;
   text-align: center; 
 }
-
-
