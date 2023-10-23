@@ -14,9 +14,9 @@ import Footer from './Footer';
 function RoutingCom() {
     const [isHamburger, setisHamburger] = useState(false);
 
-    const toggleMenu = () => {
-        setisHamburger(!isHamburger);
-    };
+    // const toggleMenu = () => {
+    //     setisHamburger(!isHamburger);
+    // };
     const closenavigate = () => {
         setisHamburger(false);
     }
@@ -31,8 +31,8 @@ function RoutingCom() {
                     </div>
                     <div className='hamburger'>
 
-                        <button className='hamburgerbtn'>
-                           {isHamburger} ___ ___ ___
+                        <button className='hamburgerbtn' onClick={() => setisHamburger(!isHamburger)}>
+                            ___ ___ ___
                         </button>
 
                     </div>
@@ -43,14 +43,13 @@ function RoutingCom() {
                     <BrowserRouter>
                         <div className='nav'>
                             <div className='main-nav'>
-                                <ul type='none' className={isHamburger ? "hamburgerbtn":"main-nav"}>
+                                <ul type='none' className={isHamburger ? "hamburgerbtn" : "nav"} onClick={() => setisHamburger(false)}>
                                     <li><NavLink to="/" className='navtxt' onClick={closenavigate}>Home</NavLink></li>
                                     <li> <NavLink to="/Bollywood" className='navtxt' onClick={closenavigate}>Bollywood</NavLink></li>
                                     <li><NavLink to="/Technology" className='navtxt' onClick={closenavigate}>Technology</NavLink></li>
                                     <li> <NavLink to="/Hollywood" className='navtxt' onClick={closenavigate}>Hollywood</NavLink></li>
                                     <li><NavLink to="/Fitness" className='navtxt' onClick={closenavigate}>Fitness</NavLink></li>
                                     <li><NavLink to="/Food" className='navtxt' onClick={closenavigate}>Food</NavLink></li>
-
                                 </ul>
                             </div>
                         </div>
