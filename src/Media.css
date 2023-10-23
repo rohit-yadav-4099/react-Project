@@ -1,8 +1,6 @@
 
 
-/*-------------------MEDIA QUERRY ---------------------------
-
----------------------------------------------------*/
+/*-------------------MEDIA QUERRY  Mobile View ---------------------------*/
 
 @media (max-width: 750px) and (min-width:300px) {
 
@@ -11,6 +9,8 @@
 
     
     body {
+        padding: 0;
+        margin: 0;
         overflow-x: hidden;
         overflow-y: scroll;
     }
@@ -42,7 +42,7 @@
         font-size: 3em;
         position: absolute;
         left: 1.6em;
-        top: -2vh;
+        top: -1.5vh;
 
     }
 
@@ -249,9 +249,7 @@
         height: 20px;
     }
 
-    /*------------BOLLYWOOD ----------------------===============
-    ===============================================================
-    =========================================*/
+    /*------------BOLLYWOOD ----------------------===============*/
 
 
     .headingcompo {
@@ -366,7 +364,7 @@
         display: none;
     }
 
-    /*===========================NAVIGATE PAGE DESIGNE==============
+    /*===========================Dynamic PAGE DESIGNE==============
   ==================================================*/
 
     .detail {
@@ -431,9 +429,9 @@
   ========================================================*/
 
 @media (max-width: 1080px) and (min-width:750px) {
+
     /*---------HOME PAGE---------*/
 
-    /*-------Three images-----------*/
     body {
         overflow-x: hidden;
         overflow-y: scroll;
@@ -646,15 +644,39 @@
     }
 
     /*---------------------FOOTER DESIGN--------------------*/
-    
-    .footerContainer{
-        margin-bottom: 2%;
+    .footerContainer {
+        height: 150px;
+        margin-top: 6em;
+        padding: 25px 0 25px;
+        border-top-left-radius: 100px;
+        font-size: 8px;
+        justify-content: space-evenly;
     }
 
-    /* div.navbar{
-        height: 100%;
-        width: 100%;
-    } */
+    .a{
+        display: flex;
+        font-size: 10px;
+    }
+
+    .footer2ndDiv{
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .navcontact {
+        display: flex;
+        flex-direction: column;
+        line-height: 0.5%;
+        margin-top: 0%;
+    }
+ 
+    .navSocialmedia{
+        margin-top: 0%;
+    }
+    .navsicon{
+        width: 25px;
+        height: 25px;
+    }
 
     /*------------BOLLYWOOD ----------------------===============
     ===============================================================
