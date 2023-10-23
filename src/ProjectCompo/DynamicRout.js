@@ -26,8 +26,6 @@ const Navigate = () => {
                     <h1>{selectedItem.name}</h1>
                     <h1>{selectedItem.title}</h1>
                     <div className="socialProfile">
-
-
                         <div className="Profile">
                             <img src="https://toppng.com/uploads/preview/man-icon-icon-11553432006itw46zhhk8.png" className="pic"
                                 alt="Not Found"></img>
