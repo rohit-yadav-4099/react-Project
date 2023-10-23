@@ -4,7 +4,7 @@
 
 ---------------------------------------------------*/
 
-@media (max-width: 767px) and (min-width:300px) {
+@media (max-width: 750px) and (min-width:300px) {
 
 
     /*---------HOME PAGE---------*/
@@ -15,34 +15,13 @@
         overflow-y: scroll;
     }
 
-    .head {
-        background: none;
-    }
-
-    .hamburger {
-        display: block;
-        font-size: 30px;
-        height: 8vh;
-        width: 12vw;
-    }
-
-
-    .linktag {
+    ul.hamburgerbtn{
+        background-color: #197373;
+        width: 90%;
+        height: 200px;
+        text-align: center;
         display: flex;
         flex-direction: column;
-        background-color: rgb(207, 190, 190);
-        text-align: center;
-    }
-
-
-    .linktag2 {
-        display: none;
-
-    }
-
-
-    .navbar {
-        background: none;
     }
 
     /*------------------THE SERIN--------------------------*/
@@ -55,14 +34,14 @@
         rotate: 270deg;
         font-size: 2em;
         position: absolute;
-        left: 1.5em;
+        left: 1em;
         top: 5vh;
     }
 
     .Siren {
         font-size: 3em;
         position: absolute;
-        left: 2em;
+        left: 1.6em;
         top: -2vh;
 
     }
@@ -71,13 +50,14 @@
         display: block;
         margin-top: 4vh;
         margin-right: 4vh;
-        width: 35px;
+        width: 30px;
         height: 35px;
         font-size: 24px;
         font-weight: bold;
-        line-height: 60%;
+        line-height: 55%;
         border: none;
         background-color: white;
+        font-size: 20px;
     }
 
     ul {
@@ -91,7 +71,8 @@
     .MAIN-IMAGE {
         flex-direction: column;
         gap: 4vh;
-        height: 125vh;
+        height: 120vh;
+        margin-left: 0%;
     }
 
     .aghori-img img {
@@ -244,12 +225,10 @@
     }
 
 
-
-
     footer {
         /* padding: 20px 0px; */
         width: 100%;
-        height: 35vh;
+        height: 20vh;
     }
 
     .NavIcons {
@@ -263,11 +242,19 @@
         margin: 0px 3px;
     }
 
-    .leftNav {
+    
+
+    .footercontact{
+        margin-top: 20px;
+    }
+    .navcontact {
         display: flex;
         flex-direction: column;
-        font-size: 12px;
-        height: 24vh;
+        line-height: 1%;
+        margin-top: 0%;
+    }
+    .footerSocilMedia{
+         margin-top: 20px;
     }
 
 
@@ -350,10 +337,6 @@
         box-shadow: 3px 3px 3px 3px gray;
     }
 
-    /* .Top2Text {
-      width: 60vw;
-      height: 20vh;
-    } */
 
     .ArticletextAllone1 {
         height: 13vh;
@@ -425,22 +408,24 @@
     }
 
     .pic {
-        height: 10vh;
-        width: 8vw;
+        height: 8vh;
+        width: 13vw;
     }
 
     .name {
-        font-size: 22px;
+        font-size:18px;
     }
 
     /*-------social icon-------*/
     .Socialmedia {
         display: flex;
+        width: 100px;
+        margin-left: 4em;
     }
 
     .sicon {
-        height: 8vh;
-        width: 12vw;
+        height: 5vh;
+        width: 9vw;
     }
 
     .NavigateImg {
@@ -465,7 +450,7 @@
  
   ========================================================*/
 
-@media (max-width: 990px) and (min-width:760px) {
+@media (max-width: 1080px) and (min-width:750px) {
     /*---------HOME PAGE---------*/
 
     /*-------Three images-----------*/
@@ -496,7 +481,7 @@
     .hamburgerbtn {
         display: block;
         margin-top: 5vh;
-        margin-right: 4vh;
+        margin-right: 5vh;
         width: 40px;
         height: 40px;
         font-size: 24px;
@@ -508,27 +493,45 @@
 
     ul {
         display: none;
+        
+    }
+    hr{
+        width: 99.5%;
+    }
+    ul.hamburgerbtn{
+        background-color: #197373;
+        width: 97.5%;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 0%;
     }
 
     .MAIN-IMAGE {
         flex-direction: column;
         gap: 4vh;
         height: 120vh;
+        margin-left: 0%;
     }
 
     .aghori-img img {
         height: 48vh;
         width: 98%;
+        margin-left: 1%;
     }
 
     .top-img {
         height: 70vh;
         width: 100%;
+        
     }
 
     .top-img img {
         height: 32vh;
         width: 98%;
+        margin-left: 1%;
     }
 
     /*------------the latest---------------========
@@ -663,39 +666,15 @@
     }
 
     /*---------------------FOOTER DESIGN--------------------*/
-    footer {
-        background-color: #4db4bb;
-        padding: 20px 0px;
+    
+    .footerContainer{
+        margin-bottom: 2%;
+    }
+
+    /* div.navbar{
+        height: 100%;
         width: 100%;
-    }
-
-    .NavIcons {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 10px;
-
-    }
-
-    .NavIcons h2 {
-        font-size: 32px;
-        margin: 0px 5px;
-    }
-
-    .leftNav {
-        display: flex;
-        flex-direction: column;
-        font-size: 18px;
-    }
-
-    .icons h2 {
-        font-size: 35px;
-    }
-
-    .footer-content {
-        font-size: 17px;
-    }
-
+    } */
 
     /*------------BOLLYWOOD ----------------------===============
     ===============================================================
@@ -764,10 +743,6 @@
         box-shadow: 3px 3px 3px 3px gray;
     }
 
-    /* .Top2Text {
-      width: 60vw;
-      height: 20vh;
-    } */
 
     .ArticletextAllone1 {
         height: 13vh;
@@ -837,14 +812,14 @@
     }
 
     .pic {
-        height: 10vh;
-        width: 10vw;
+        height: 5vh;
+        width: 7vw;
         background-color: white;
         border-radius: 50%;
     }
 
     .name {
-        font-size: 26px;
+        font-size: 23px;
     }
 
     /*-------social icon-------*/
@@ -853,13 +828,13 @@
     }
 
     .sicon {
-        height: 6vh;
-        width: 12vw;
+        height: 4vh;
+        width: 7vw;
     }
 
 
     .NavigateImg {
-        height: 54vh;
+        height: 50vh;
         width: 99%;
     }
 
