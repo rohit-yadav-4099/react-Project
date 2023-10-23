@@ -13,17 +13,12 @@ import Footer from './Footer';
 
 function RoutingCom() {
     const [isHamburger, setisHamburger] = useState(false);
-
-    // const toggleMenu = () => {
-    //     setisHamburger(!isHamburger);
-    // };
     const closenavigate = () => {
         setisHamburger(false);
     }
 
     return (
         <>
-            <div className='navcontain'>
                 <div className='hambuger-title'>
                     <div className='head'>
                         <span className='The'>The</span>
@@ -67,8 +62,7 @@ function RoutingCom() {
                         </ConntextStore>
                     </BrowserRouter>
                 </div>
-                <Footer></Footer>
-            </div>
+            <Footer></Footer>
         </>
     );
 }
