@@ -9,9 +9,9 @@ function Footer(){
                     <div className="footercontact">
                         <h1>Contact Us</h1>
                         <div className="navcontact">
-                        <h4>Email: ry707178@gmail.com</h4>
-                        <h4>Phone: +917800962194</h4>
-                        <h4>Address: Jaunpur UP</h4>
+                        <p>Email: ry707178@gmail.com</p>
+                        <p>Phone: +917800962194</p>
+                        <p>Address: Jaunpur UP</p>
                         </div>
                     </div>
                     <div className="footerLink">
