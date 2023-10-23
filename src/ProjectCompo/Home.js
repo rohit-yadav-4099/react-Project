@@ -56,7 +56,6 @@ const Homecom = () => {
                 <div className="secondcolum">
                     {Data.filter((item) => item.id >= 72 && item.id <= 77).map(
                         (item, index) => {
-
                             return (
                                 <div key={index}>
                                     <NavLink to={`/Navigate/${item.id}`}>
@@ -87,12 +86,10 @@ const Homecom = () => {
                     <div className="Advertisement">
                         <h1>{"Advertisement"}</h1>
                     </div>
-
                     <div className="Toppost">
                         <h1>Top Posts</h1>
                         {Data.filter((item) => item.id >= 72 && item.id <= 75).map(
                             (item, index) => {
-
                                 return (
                                     <div key={index} className="toppostArticle">
                                         <NavLink to={`/Navigate/${item.id}`}>
@@ -119,8 +116,6 @@ const Homecom = () => {
                     </div>
                 </div>
             </div>
-
-
             <h1 className="Storiehead">Latest Stories</h1>
             <div className="StoriesDiv">
                 {Data.filter((item) => item.id % 10 === 0 && item.id <= 30).map(
@@ -142,6 +137,7 @@ const Homecom = () => {
                         );
                     }
                 )}
+
             </div>
         </div>
     );
