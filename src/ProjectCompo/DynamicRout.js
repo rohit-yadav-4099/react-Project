@@ -22,22 +22,25 @@ const Navigate = () => {
     return (
         <div>
             <div className="ParentTop">
+                <div className="share">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="not Found" className="likeshare"></img><span className="likeandshare">10.5k</span><br /><br />
+                    <img src="https://cdn-icons-png.flaticon.com/128/1358/1358023.png" alt="not Found" className="likeshare"></img><span className="likeandshare">Share this article</span>
+                </div>
                 <div className="detail">
                     <h1>{selectedItem.name}</h1>
-                    <h1>{selectedItem.title}</h1>
                     <div className="socialProfile">
                         <div className="Profile">
                             <img src="https://toppng.com/uploads/preview/man-icon-icon-11553432006itw46zhhk8.png" className="pic"
                                 alt="Not Found"></img>
-                            <h4 className="name">Rohit Yadav</h4>
+                            <div className="name">Rohit Yadav<div className="dates">Oct 22, 2023</div></div>
                         </div>
                         <div className="Socialmedia">
                             <a href="https://www.facebook.com/profile.php?id=100016012260785" target="_blank" rel="noopener noreferrer">
                                 <img className="sicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztMLZ5RO6EhrIJrzmBK2Kh2tLmsroesf87g&usqp=CAU" alt="Not Found" />
                             </a>
 
-                            <a href="https://github.com/rohit-yadav-4099" target="_blank" rel="noopener noreferrer">
-                                <img className="sicon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt='Not Found' />
+                            <a href="https://www.youtube.com/channel/UCNjC87uhbojBVyQrnstFBCQ" target="_blank" rel="noopener noreferrer">
+                                <img className="sicon" src="https://img.freepik.com/premium-photo/youtube-logo-video-player-3d-design-video-media-player-interface_41204-12379.jpg?w=1060" alt='Not Found' />
                             </a>
 
                             <a href="https://www.instagram.com/rohit_yadav_4099/" target="_blank" rel="noopener noreferrer">
@@ -50,34 +53,61 @@ const Navigate = () => {
 
                         </div>
                     </div>
-                    <img
-                        className="NavigateImg"
-                        src={selectedItem.image}
-                        alt="not found"
+                    <div>
 
-                    />
-                    <br />
-                    <p className="navitext">{selectedItem.text}</p>
-                    <p>{selectedItem.content}</p>
-                </div>
-                <div className="rightDetails"></div>
-            </div>
-            <div className="LatestDiv  navigateimg2">
-                {relatedItems.map((item, index) => (
-                    <div key={index} className="HomeLatest">
-                        <NavLink to={`/Navigate/${item.id}`}>
-                            <img className="latestimage" src={item.image} alt="Not Found" />
-                            <div className="text4">
-                                <h2>{item.title}</h2>
-                                <h2>{item.name}</h2>
-                                <p>{item.text.slice(0, 180)}</p>
-                            </div>
-                        </NavLink>
                     </div>
-                ))}
+                    <div>
+                        <img
+                            className="NavigateImg"
+                            src={selectedItem.image}
+                            alt="not found"
+
+                        />
+                        <br />
+                        <p className="navitext">{selectedItem.text}</p>
+                        <hr />
+                        <div className="share3">
+                            <div className="userProfile">
+                                <img src="https://toppng.com/uploads/preview/man-icon-icon-11553432006itw46zhhk8.png" className="userpic"
+                                    alt="Not Found"></img>
+                                <div className="username">Rohit Yadav<div className="datess">Oct 22, 2023</div></div>
+                            </div>
+                            <div className="share2">
+                                <img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="not Found" className="likeshare"></img><span className="likeandshare3">10.5k</span><br /><br />
+                                <img src="https://cdn-icons-png.flaticon.com/128/1358/1358023.png" alt="not Found" className="likeshare"></img><span className="likeandshare3">Share</span>
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+
             </div>
-            <div className="btn">
-                <button onClick={() => navii(-1)} className="backbutton">Back</button>
+            <div className="zindex">
+                <div className="rightDetails">
+                    <h3>More From The Siren</h3>
+                </div>
+                <div className="LatestDiv  navigateimg2">
+                    {relatedItems.map((item, index) => (
+                        <div key={index} className="HomeLatest">
+                            <NavLink to={`/Navigate/${item.id}`}>
+                                <img className="latestimage" src={item.image} alt="Not Found" />
+                                <div className="text4">
+                                    <h2>{item.title}</h2>
+                                    <h2>{item.name}</h2>
+                                    <p>{item.text.slice(0, 180)}</p>
+                                    <div className="userProfile">
+                                        <img src="https://toppng.com/uploads/preview/man-icon-icon-11553432006itw46zhhk8.png" className="userpic"
+                                            alt="Not Found"></img>
+                                        <div className="username">Rohit Yadav<div className="datess">Oct 22, 2023</div></div>
+                                    </div>
+                                </div>
+                            </NavLink>
+                        </div>
+                    ))}
+                </div>
+                <div className="btn">
+                    <button onClick={() => navii(-1)} className="backbutton">Back</button>
+                </div>
             </div>
         </div>
     );
