@@ -1,13 +1,13 @@
 .Container {
   width: 100%;
   height: auto;
-  
+
 }
 
 body {
   overflow-x: hidden;
   margin: 0%;
-  
+
 }
 
 a {
@@ -36,16 +36,17 @@ a {
   left: 50%;
 }
 
-.hamburgerbtn{
-  display: none; 
+.hamburgerbtn {
+  display: none;
 }
-.hambuger-title{
+
+.hambuger-title {
   display: flex;
 }
 
 /*==============================NAVBAR==============================*/
 
-ul{
+ul {
   justify-content: space-around;
   display: flex;
   font-size: 25px;
@@ -55,13 +56,13 @@ ul{
 
 
 
-.active{
+.active {
   color: #928f8f;
   border-bottom: 2px solid #928f8f;
 }
 
 
-hr{
+hr {
   width: 95%;
   height: 1.5px;
   background-color: #197373;
@@ -91,7 +92,7 @@ hr{
   flex-direction: column;
   gap: 1rem;
   height: 60vh;
-  width: 35vw; 
+  width: 35vw;
 }
 
 .top-img img {
@@ -300,7 +301,7 @@ hr{
 /*---------------------FOOTER DESIGN--------------------*/
 
 
-.footerContainer{
+.footerContainer {
   position: absolute;
   height: 250px;
   width: 100%;
@@ -316,24 +317,26 @@ hr{
   justify-content: space-around;
 }
 
-.footer2ndDiv{
+.footer2ndDiv {
   display: flex;
   gap: 8em;
 }
-.navcontact{
+
+.navcontact {
   margin-top: 40px;
 }
 
-.search{
- display: flex;
- flex-direction: column;
+.search {
+  display: flex;
+  flex-direction: column;
 }
 
-.a{
+.a {
   color: white;
   font-size: 15px;
   line-height: 1%;
 }
+
 .navSocialmedia {
   display: flex;
   gap: 5px;
@@ -514,6 +517,13 @@ hr{
   color: #7aced4;
 }
 
+.rightDetails {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  color: rgb(85, 83, 83);
+}
+
 .socialProfile {
   display: flex;
   flex-direction: row;
@@ -523,27 +533,103 @@ hr{
   display: flex;
   width: 30vw;
   height: 15vh;
-  align-items: baseline;
+  align-items: center;
 }
 
 .pic {
-  height: 10vh;
-  width: 5vw;
+  height: 9vh;
+  width: 4.5vw;
   border-radius: 50%;
 }
 
 .name {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 0.5em;
 }
 
-/*-------social icon-------*/
-.Socialmedia {
+.dates {
+  font-size: 12px;
+  color: rgb(108, 105, 105);
+}
+
+.userProfile {
+  display: flex;
+  width: 30vw;
+  height: 15vh;
+  align-items: center;
+}
+
+.userpic {
+  height: 5.2vh;
+  width: 5vh;
+  margin-left: 2em;
+  border-radius: 50%;
+}
+
+.username {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 0.5em;
+}
+
+.datess {
+  font-size: 10px;
+  color: rgb(108, 105, 105);
+}
+
+
+.ParentTop {
   display: flex;
 }
 
+.share {
+  position: fixed;
+  margin-top: 15em;
+  margin-left: 10em;
+  z-index: -1;
+}
+
+.share2 {
+  display: flex;
+  height: 4.5vh;
+  margin-top: 1em;
+  gap: 0.6em;
+  margin-right: 4em;
+}
+
+.share3 {
+  display: flex;
+}
+
+.likeandshare2 {
+  font-size: 15px;
+  margin-left: 1em;
+  width: 2vh;
+  height: 3vh;
+}
+
+.likeandshare3 {
+  font-size: 20px;
+}
+
+.zindex {
+  z-index: 0;
+  background-color: #f1ecec;
+}
+
+.likeshare {
+  width: 5vh;
+}
+
+.likeandshare {
+  font-size: 15px;
+  margin-left: 1em;
+}
+
 .sicon {
-  height: 7vh;
-  width: 3.5vw;
+  height: 6.5vh;
+  width: 3.2vw;
   border-radius: 50%;
 }
 
@@ -575,5 +661,5 @@ hr{
 .navitext {
   color: #081d1f;
   font-size: 20px;
-  text-align: center; 
+  text-align: center;
 }
