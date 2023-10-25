@@ -17,7 +17,7 @@
 
     ul.hamburgerbtn{
         background-color: #197373;
-        width: 90%;
+        width: 89.2%;
         height: 200px;
         text-align: center;
         display: flex;
@@ -65,7 +65,7 @@
     }
 
     hr {
-        width: 100%;
+        width: 99%;
     }
 
     .MAIN-IMAGE {
@@ -382,7 +382,7 @@
         display: flex;
         width: 42vw;
         height: 15vh;
-        align-items: baseline;
+        align-items: center;
     }
 
     .pic {
@@ -399,6 +399,7 @@
         display: flex;
         width: 100px;
         margin-left: 4em;
+        margin-top: 2em;
     }
 
     .sicon {
@@ -421,6 +422,42 @@
         width: 99%;
 
     }
+
+    .userProfile {
+        display: flex;
+        width: 42vw;
+        height: 15vh;
+        align-items: center;
+    }
+
+    .username{
+        font-size: 10px;
+    }
+    img.likeshare{
+        margin-left: 0em;
+      }
+
+      .share{
+        display: none;
+      }
+      
+      .zindex{
+        z-index: 0;
+        background-color: white;
+      }
+
+
+      .share2{
+        width: 20px;
+      }
+      .likeandshare3{
+        margin-left: 0%;
+        font-size: 15px;
+      }
+
+      .btn{
+        margin-top: 8em;
+      }
 }
 
 
@@ -791,7 +828,7 @@
         display: none;
     }
 
-    /*===========================NAVIGATE PAGE DESIGNE==============
+    /*===========================Dynamic PAGE DESIGNE==============
   ==================================================*/
 
     .detail {
@@ -809,7 +846,7 @@
         display: flex;
         width: 30vw;
         height: 15vh;
-        align-items: baseline;
+        align-items: center;
 
     }
 
@@ -827,11 +864,12 @@
     /*-------social icon-------*/
     .Socialmedia {
         display: flex;
+        margin-top: 3em;
     }
 
     .sicon {
         height: 4vh;
-        width: 7vw;
+        width: 6vw;
     }
 
 
@@ -856,3 +894,24 @@
         width: 20vw;
     }
 }
+
+.userProfile{
+    margin-top: -3%;
+}
+.share{
+    display: none;
+  }
+  
+  .zindex{
+    z-index: 0;
+    background-color: white;
+  }
+  
+  .share3{
+    height: 10vh;
+  }
+
+  .likeshare{
+    height: 4vh;
+    margin-left: 5em;
+  }
