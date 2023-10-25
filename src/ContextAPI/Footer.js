@@ -38,8 +38,8 @@ function Footer() {
                                     <img className="navsicon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztMLZ5RO6EhrIJrzmBK2Kh2tLmsroesf87g&usqp=CAU" alt="Not Found" />
                                 </a>
 
-                                <a href="https://github.com/rohit-yadav-4099" target="_blank" rel="noopener noreferrer">
-                                    <img className="navsicon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt='Not Found' />
+                                <a href="https://www.youtube.com/channel/UCNjC87uhbojBVyQrnstFBCQ" target="_blank" rel="noopener noreferrer">
+                                    <img className="navsicon" src="https://img.freepik.com/premium-photo/youtube-logo-video-player-3d-design-video-media-player-interface_41204-12379.jpg?w=1060" alt='Not Found' />
                                 </a>
 
                                 <a href="https://www.instagram.com/rohit_yadav_4099/" target="_blank" rel="noopener noreferrer">
