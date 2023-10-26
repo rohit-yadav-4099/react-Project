@@ -60,9 +60,7 @@ const Navigate = () => {
                         <img
                             className="NavigateImg"
                             src={selectedItem.image}
-                            alt="not found"
-
-                        />
+                            alt="not found" />
                         <br />
                         <p className="navitext">{selectedItem.text}</p>
                         <hr />
@@ -80,7 +78,6 @@ const Navigate = () => {
                         <hr />
                     </div>
                 </div>
-
             </div>
             <div className="zindex">
                 <div className="rightDetails">
