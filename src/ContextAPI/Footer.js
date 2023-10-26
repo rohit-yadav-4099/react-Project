@@ -10,7 +10,7 @@ function Footer() {
                     <div className="footer2ndDiv">
                         <div>
                             <h1>About Us</h1>
-                            <p>Design by Rohit yadav</p>
+                            <p className="aboutuss">This is a React-blog Project<br /> made using React dynamic routing concept.<p className="degineby">Degine by- Rohit yadav</p> </p>
                         </div>
                         <div className="footercontact">
                             <h1>Contact Us</h1>
@@ -29,7 +29,6 @@ function Footer() {
                                 <p> <a href="https://www.flipkart.com/" className="a">FlipKart</a></p>
                                 <p> <a href="https://my.naukri.com/" className="a">Naukri.com</a></p>
                             </div>
-
                         </div>
                         <div className="footerSocilMedia">
                             <h1>Follow Us</h1>
@@ -54,7 +53,6 @@ function Footer() {
                     </div>
                 </div>
             </footer>
-
         </div>
     )
 }
