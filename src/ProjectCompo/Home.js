@@ -97,13 +97,11 @@ const Homecom = () => {
                                                 <img
                                                     className="TopArticleimg"
                                                     src={item.image}
-                                                    alt="Not Found"
-                                                />
+                                                    alt="Not Found" />
                                                 <div className="textt">
                                                     <h3>{item.name}</h3>
                                                     <p>{item.text.slice(0, 60)}..</p>
                                                 </div>
-
                                                 <div className="number">
                                                     <h1>{index + 1}</h1>
                                                 </div>
@@ -126,8 +124,7 @@ const Homecom = () => {
                                     <img
                                         className="latestimage"
                                         src={item.image}
-                                        alt="Not Found"
-                                    />
+                                        alt="Not Found" />
                                     <div className="last">
                                         <h2>{item.name}</h2>
                                         <p>{item.text.slice(0, 100)}..</p>
